@@ -1,0 +1,39 @@
+/* research.css */
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+  background-color: #fff;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+
+.author {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border: 1px solid #ccc;
+}
+
+.abstract {
+  font-size: 1.05em;
+  margin-top: 2em;
+  background-color: #f9f9f9;
+  padding: 1.2em;
+  border-left: 4px solid #aaa;
+}
