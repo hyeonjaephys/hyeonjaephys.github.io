@@ -20,15 +20,13 @@ body {
   gap: 1.5em;
 }
 
-/* 그림 크기 크게 */
 .project-image {
   width: auto;
-  height: 100px;
+  height: 110px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-/* 제목과 저자 */
 .title-section h1 {
   font-size: 1.8em;
   font-weight: 600;
