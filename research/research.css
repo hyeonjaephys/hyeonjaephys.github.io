@@ -23,7 +23,7 @@ body {
 /* 그림 크기 크게 */
 .project-image {
   width: auto;
-  height: 120px;
+  height: 100px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
