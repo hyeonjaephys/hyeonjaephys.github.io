@@ -3,49 +3,57 @@ body {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
-  line-height: 1.7;
   background-color: #fff;
   color: #333;
+  line-height: 1.7;
 }
 
+/* 상단 구조 */
 .header-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
+/* 그림 크기 크게 */
 .project-image {
-  width: 100px;
+  width: 180px;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-h1 {
-  font-size: 2.2em;
+/* 제목과 저자 */
+.title-section h1 {
+  font-size: 1.8em;
   font-weight: 600;
   margin: 0;
 }
-
 .author {
   font-size: 1em;
   color: #666;
   margin-top: 0.4em;
 }
 
-.abstract {
-  font-size: 1.05em;
-  margin-top: 2em;
+/* 저자 아래 선 */
+.title-section hr {
+  border: none;
+  border-top: 2px solid #999;
+  margin-top: 0.8em;
+  margin-bottom: 0;
+}
+
+/* 글 설명 박스 2개 */
+.abstract-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  margin-top: 0.5em; /* 그림과 가까이 붙이기 */
+}
+.abstract-box {
   background-color: #f9f9f9;
   padding: 1.2em;
   border-left: 4px solid #aaa;
-}
-
-a {
-  color: #0070c9;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+  font-size: 1.05em;
 }
