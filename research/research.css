@@ -5,21 +5,25 @@ body {
   padding: 0 20px;
   background-color: #fff;
   color: #333;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
-/* 상단 구조 */
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
 .header-container {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 1.5em;
-  margin-bottom: 1em;
 }
 
 /* 그림 크기 크게 */
 .project-image {
-  width: 180px;
-  height: auto;
+  width: auto;
+  height: 120px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -36,17 +40,16 @@ body {
   margin-top: 0.4em;
 }
 
-/* 저자 아래 선 */
-.title-section hr {
+.aligned-divider {
   border: none;
   border-top: 2px solid #999;
-  margin: 0 auto 1.4em auto;
+  margin: 0;
 }
 
 .abstract-container {
-  font-size: 1.05em;
-  line-height: 1.7;
+  margin-top: 1.4em;
   display: flex;
   flex-direction: column;
-  gap: 1.2em;
+  gap: 1em;
+  font-size: 1.05em;
 }
