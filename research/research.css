@@ -36,10 +36,8 @@ h1 {
 }
 
 .project-image {
-  width: 40%;
-  max-width: 300px;
+  width: 80%;
   height: auto;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-top: 1em;
+  display: block;
+  margin: 20px auto;
 }
