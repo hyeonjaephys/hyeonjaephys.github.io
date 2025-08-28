@@ -16,10 +16,40 @@ body {
   h1 {
     font-size: 2.5em;
     margin-bottom: 0.2em;
-    border-bottom: 3px double #bbb;
     padding-bottom: 0.2em;
     font-weight: 600;
   }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      border-bottom: 2px solid #bbb;
+      padding-bottom: 0.6em;
+      margin-top: 0.5em;
+      margin-bottom: 1.5em;
+      font-size: 1.05em;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #333;
+      transition: color 0.2s ease;
+    }
+
+    .navbar a:hover {
+      color: #007acc;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8em;
+      }
+
   h2 {
     border-bottom: 2px solid #bbb;
     padding-bottom: 0.2em;
@@ -64,34 +94,5 @@ body {
     font-size: 0.9em;
     color: #888;
     text-align: center;
-  }
-.navbar {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-  border-bottom: 2px solid #bbb;
-  padding-bottom: 0.6em;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-  font-size: 1.05em;
-}
-
-.navbar a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #333;
-  transition: color 0.2s ease;
-}
-
-.navbar a:hover {
-  color: #007acc;
-  text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8em;
   }
 }
