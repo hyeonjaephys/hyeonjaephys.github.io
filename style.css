@@ -41,10 +41,13 @@ h3 {
   justify-content: flex-start;
   gap: 2em;
   border-bottom: 2px solid #bbb;
-  padding-bottom: 0.6em;
-  margin-top: 0.6em;
+  padding: 0.6em 20px;
+  margin-top: 0.5em;
   margin-bottom: 1.5em;
   font-size: 1.05em;
+
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .navbar a {
