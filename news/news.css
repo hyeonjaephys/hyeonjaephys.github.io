@@ -1,29 +1,44 @@
+/* news.css */
+
 .news-container {
-  max-width: 768px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2em 1em;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 0.95rem;
-  color: #1a1a1a;
+  padding: 2em;
+  font-family: 'Pretendard', sans-serif;
 }
 
 .news-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   margin-bottom: 3em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 2em;
 }
 
+.news-text {
+  flex: 2;
+  padding-right: 1em;
+}
+
+.news-image {
+  flex: 1;
+  max-width: 200px;
+}
+
+.news-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
 .news-date {
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: bold;
   margin-bottom: 0.5em;
-  color: #111;
 }
 
 .news-description {
-  line-height: 1.6;
   margin-bottom: 0.5em;
-  color: #222;
 }
 
 .news-link {
@@ -35,15 +50,22 @@
   text-decoration: underline;
 }
 
-.news-image {
-  display: block;
-  max-width: 100%;
-  margin-top: 1em;
-  border: 1px solid #ddd;
+h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+  color: #222;
 }
 
-@media screen and (max-width: 600px) {
-  .news-container {
-    padding: 1.5em 1em;
+@media (max-width: 768px) {
+  .news-item {
+    flex-direction: column;
+  }
+  .news-text {
+    padding-right: 0;
+  }
+  .news-image {
+    margin-top: 1em;
+    max-width: 100%;
   }
 }
