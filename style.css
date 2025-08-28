@@ -36,6 +36,14 @@ h3 {
   padding-bottom: 0.2em;
 }
 
+h4 {
+  font-size: 1.2em;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  font-weight: 400;
+  padding-bottom: 0.2em;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-start;
