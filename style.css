@@ -65,66 +65,33 @@ body {
     color: #888;
     text-align: center;
   }
-/* 고정 메뉴바 기본 설정 */
-.menu-toggle {
-  display: none;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 1.6em;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 1001;
-}
-
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #fff;
   display: flex;
   justify-content: center;
   gap: 2em;
-  border-bottom: 1px solid #ccc;
-  padding: 0.8em 1em;
-  z-index: 1000;
-  transition: transform 0.3s ease;
+  border-bottom: 2px solid #bbb;
+  padding-bottom: 0.6em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.05em;
 }
 
-/* 메뉴 항목 스타일 */
 .navbar a {
   text-decoration: none;
   font-weight: 500;
   color: #333;
   transition: color 0.2s ease;
 }
+
 .navbar a:hover {
   color: #007acc;
   text-decoration: underline;
 }
 
-/* body 상단 여백 확보 */
-body {
-  padding-top: 70px;
-}
-
-/* 모바일용 반응형 메뉴 */
 @media (max-width: 600px) {
-  .menu-toggle {
-    display: block;
-  }
-
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 1em;
-    padding: 1em;
-    transform: translateY(-200%);
-  }
-
-  .navbar.open {
-    transform: translateY(0);
+    align-items: center;
+    gap: 0.8em;
   }
 }
