@@ -11,6 +11,12 @@
 </head>
 <body>
   <h1>Hyeonjae Kim</h1>
+
+  <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+  <nav class="navbar">
+    <a href="#about">News</a>
+    <a href="#research">Research</a>
+  </nav>
   <p style="line-height: 1.8;">
     Current Position: <strong>Research Officer for National Defense @ Agency for Defense Development</strong><br>
     <a href="mailto:hyeonjae.amo@gmail.com", target="_blank"><strong>hyeonjae.amo@gmail.com</strong></a> | <a href="mailto:hyeonjae@add.re,kr", target="_blank"><strong>hyeonjae@add.re.kr</strong></a><br>
@@ -175,6 +181,14 @@
   <footer>
     &copy; 2025. Hyeonjae Kim. All Rights Reserved.
   </footer>
-    
+
+  <script>
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const navbar = document.querySelector('.navbar');
+
+  toggleBtn.addEventListener('click', () => {
+    navbar.classList.toggle('open');
+  });
+</script>
 </body>
 </html>
