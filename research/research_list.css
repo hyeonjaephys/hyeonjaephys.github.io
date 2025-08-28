@@ -1,0 +1,52 @@
+.research {
+  margin-bottom: 3em;
+}
+
+.research img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.research .title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #e86a00; /* Kinetic orange tone */
+  margin: 0.8em 0 0.4em;
+  line-height: 1.5;
+}
+
+.research .authors {
+  font-size: 1em;
+  color: #333;
+  margin: 0.2em 0;
+}
+
+.research .journal {
+  font-size: 0.95em;
+  color: #555;
+  margin: 0.2em 0 0.8em;
+}
+
+.research .links {
+  display: flex;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+.research .btn {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.85em;
+  border: 1px solid #e86a00;
+  color: #e86a00;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.research .btn:hover {
+  background-color: #e86a00;
+  color: #fff;
+}
