@@ -38,7 +38,7 @@ h3 {
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2em;
   border-bottom: 2px solid #bbb;
   padding-bottom: 0.6em;
