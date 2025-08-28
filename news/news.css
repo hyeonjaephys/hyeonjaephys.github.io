@@ -1,63 +1,51 @@
-.news-section {
+/* refined-news.css */
+
+.news-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2em 1em;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.news-item {
   margin-bottom: 3em;
-  padding-bottom: 1em;
-  border-bottom: 2px solid #ddd;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2em;
 }
 
-.news-entry {
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.news-text {
-  flex: 1 1 300px;
-  min-width: 250px;
-}
-
-.news-text h4 {
-  font-size: 1.05em;
+.news-date {
   font-weight: 600;
-  margin-bottom: 0.6em;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  color: #111;
+}
+
+.news-description {
+  line-height: 1.6;
+  margin-bottom: 0.5em;
   color: #222;
 }
 
-.news-text p {
-  margin: 0.4em 0;
-  line-height: 1.6;
-  color: #333;
-}
-
-.news-text a {
-  color: inherit;
+.news-link {
+  color: #1a0dab;
   text-decoration: none;
 }
 
-.news-text a:hover {
+.news-link:hover {
   text-decoration: underline;
 }
 
 .news-image {
-  flex: 0 0 280px;
-  max-width: 320px;
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  display: block;
+  max-width: 100%;
+  margin-top: 1em;
+  border: 1px solid #ddd;
 }
 
-@media (max-width: 700px) {
-  .news-entry {
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 600px) {
+  .news-container {
+    padding: 1.5em 1em;
   }
-
-  .news-image {
-    max-width: 100%;
-  }
-} 
+}
