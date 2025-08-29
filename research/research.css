@@ -7,15 +7,9 @@
 
 .author {
   font-size: 1em;
-  color: #666;
+  color: #333;
   margin-bottom: 1em;
   border-bottom: 2px solid #bbb;
-}
-
-.divider {
-  border: none;
-  border-top: 2px solid #999;
-  margin: 0 0 1.5em 0;
 }
 
 .abstract-container {
