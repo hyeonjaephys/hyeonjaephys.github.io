@@ -63,6 +63,12 @@ h4 {
   padding-bottom: 0.2em;
 }
 
+sub {
+  font-size: 0.8em;
+  vertical-align: -0.2em;
+  line-height: 1;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-start;
