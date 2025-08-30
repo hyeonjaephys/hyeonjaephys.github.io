@@ -26,7 +26,7 @@ html, body {
   font-feature-settings: "kern";
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   letter-spacing: 0;
 }
@@ -61,6 +61,13 @@ h4 {
   margin-bottom: 0.4em;
   font-weight: 400;
   padding-bottom: 0.2em;
+}
+
+h5 {
+  font-size: 1.5em;
+  padding-bottom: 0.2em;
+  margin-top: 1.4em;
+  font-weight: 550;
 }
 
 sub {
