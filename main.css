@@ -71,28 +71,6 @@ h5 {
   font-weight: 550;
 }
 
-/* Basic Structure */
-
-t1 {
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-top: 1.4em;
-  padding-bottom: 0.2em;
-  border-bottom: 2px solid #bbb;
-}
-
-p {
-  margin-top: 0em;
-  margin-bottom: 0.4em;
-  text-indent: 0;
-}
-
-.entry {
-  margin-bottom: 1.4em;
-}
-
-/* abc */
-
 sub {
   font-size: 0.8em;
   vertical-align: -0.15em;
@@ -126,7 +104,9 @@ sub {
   text-decoration: underline;
 }
 
-
+.entry {
+  margin-bottom: 1.4em;
+}
 
 .entry-title {
   font-size: 1.05em;
@@ -156,41 +136,6 @@ a:hover {
 
 a:hover * {
   text-decoration: underline;
-}
-
-/* Research Interest in Curriculum Vitae */
-
-.research-interest {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.research-interest li {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 0.8em;
-  position: relative;
-  padding-left: 1.2em;
-}
-
-.research-interest li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.15em;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.research-interest .keyword {
-  font-weight: bold;
-  margin-right: 0.5em;
-  min-width: 10em;
-}
-
-.research-interest .desc {
-  flex: 1;
 }
 
 footer {
