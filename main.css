@@ -78,7 +78,7 @@ sub {
 
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border-bottom: 3px double #bbb;
   padding: 0.6em 20px;
   margin-top: 0.5em;
@@ -90,6 +90,8 @@ sub {
 }
 
 .navbar a {
+  flex: 1;
+  text-align: center;
   text-decoration: none;
   font-weight: 500;
   color: #333;
