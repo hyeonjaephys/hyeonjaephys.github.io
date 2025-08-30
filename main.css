@@ -73,9 +73,19 @@ h5 {
 
 /* Basic Structure */
 
+t1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 1.4em;
+  padding-bottom: 0.2em;
+  border-bottom: 2px solid #bbb;
+}
+
 p {
   margin: 0.5em 0.5em;
 }
+
+/* abc */
 
 sub {
   font-size: 0.8em;
