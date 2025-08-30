@@ -79,8 +79,8 @@ sub {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 2em;                    
   border-bottom: 3px double #bbb;
   padding: 0.6em 20px;
   margin-top: 0.5em;
@@ -96,7 +96,6 @@ sub {
   font-weight: 500;
   color: #333;
   transition: color 0.2s ease;
-  white-space: nowrap;
 }
 
 .navbar a:hover {
