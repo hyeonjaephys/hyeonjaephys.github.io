@@ -85,6 +85,10 @@ p {
   margin: 0.2em 0.2em;
 }
 
+.entry {
+  margin-bottom: 0.5em;
+}
+
 /* abc */
 
 sub {
@@ -120,9 +124,7 @@ sub {
   text-decoration: underline;
 }
 
-.entry {
-  margin-bottom: 1.4em;
-}
+
 
 .entry-title {
   font-size: 1.05em;
