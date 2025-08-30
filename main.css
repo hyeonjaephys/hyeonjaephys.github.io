@@ -138,6 +138,41 @@ a:hover * {
   text-decoration: underline;
 }
 
+/* Research Interest in Curriculum Vitae */
+
+.research-interest {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.research-interest li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.8em;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.research-interest li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.research-interest .keyword {
+  font-weight: bold;
+  margin-right: 0.5em;
+  min-width: 10em;
+}
+
+.research-interest .desc {
+  flex: 1;
+}
+
 footer {
   border-top: 2px solid #bbb;
   margin-top: 2em;
