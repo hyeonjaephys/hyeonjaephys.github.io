@@ -138,6 +138,11 @@ a:hover * {
   text-decoration: underline;
 }
 
+.update {
+  color: #888;
+  font-weight: 400;
+}
+
 footer {
   border-top: 2px solid #bbb;
   margin-top: 2em;
