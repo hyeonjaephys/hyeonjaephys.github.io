@@ -71,6 +71,12 @@ h5 {
   font-weight: 550;
 }
 
+/* Basic Structure */
+
+p {
+  margin: 0.5em 0.5em;
+}
+
 sub {
   font-size: 0.8em;
   vertical-align: -0.15em;
