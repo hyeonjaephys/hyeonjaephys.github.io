@@ -82,7 +82,7 @@ sub {
   justify-content: space-between;
   flex-wrap: nowrap;
   border-bottom: 3px double #bbb;
-  padding: 0.6em 40px;
+  padding: 0.6em 10px;
   margin-top: 0.5em;
   margin-bottom: 1.5em;
   font-size: 1.05em;
