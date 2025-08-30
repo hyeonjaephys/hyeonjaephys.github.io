@@ -86,6 +86,7 @@ sub {
   margin-top: 0.5em;
   margin-bottom: 1.5em;
   font-size: 1.05em;
+  font-weight: 550em;
 
   width: 100%;
   box-sizing: border-box;
@@ -93,7 +94,7 @@ sub {
 
 .navbar a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 550;
   color: #333;
   transition: color 0.2s ease;
 }
