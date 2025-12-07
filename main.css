@@ -184,19 +184,36 @@ footer {
 }
 
 @media (max-width: 600px) {
-  h1 {
+  
+  .name-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
     text-align: center;
   }
 
-  .name-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.3em;
+  .name-row h1 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .name-row .icon-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 0.1em;
   }
   
+  .name-row .icon-links img {
+    width: 16px;
+    height: 16px;
+  }
+
   .navbar {
     flex-direction: column;
     align-items: center;
     gap: 0.6em;
   }
+}
 }
