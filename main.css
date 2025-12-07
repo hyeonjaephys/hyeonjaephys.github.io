@@ -35,7 +35,7 @@ h1 {
   font-size: 2.7em;
   margin-bottom: 0.2em;
   padding-bottom: 0.2em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h2 {
@@ -93,8 +93,9 @@ sub {
 }
 
 .navbar a {
+  font-family: "Montserrat, sans-serif;"
   text-decoration: none;
-  font-weight: 550;
+  font-weight: 400;
   color: #333;
   transition: color 0.2s ease;
 }
