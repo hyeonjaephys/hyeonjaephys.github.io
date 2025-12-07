@@ -71,31 +71,27 @@ sub {
   line-height: 1;
 }
 
+/* NAVIGATION */
+
 .navbar {
   display: flex;
-  justify-content: flex-start;
   gap: 2em;                    
-  border-bottom: 3px double #bbb;
-  padding: 0.6em 0px;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.8em;
+  margin-bottom: 2.5em;
   font-size: 1.05em;
-  font-weight: 550em;
-
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .navbar a {
-  font-family: "Montserrat, sans-serif;"
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   font-weight: 400;
-  color: #333;
-  transition: color 0.2s ease;
+  color: #444;
+  letter-spacing: 0.02em;
 }
 
 .navbar a:hover {
-  color: #007acc;
+  color: #000;
   text-decoration: underline;
 }
 
