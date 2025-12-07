@@ -153,14 +153,28 @@ footer {
 }
 
 .icon-links img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   opacity: 0.75;
+  margin-left: 6px;
+
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  
   transition: opacity 0.2s ease;
 }
 
 .icon-links img:hover {
   opacity: 1;
+}
+
+.icon-links a {
+  text-decoration: none !important;
+}
+
+.icon-links a:hover{
+  text-decoration: none !important;
 }
 
 @media (max-width: 600px) {
