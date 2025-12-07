@@ -144,6 +144,25 @@ footer {
   text-align: center;
 }
 
+/*CONTACT ICONS*/
+
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;   /* 이름과 아이콘 간격 */
+}
+
+.icon-links img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.icon-links img:hover {
+  opacity: 1;
+}
+
 @media (max-width: 600px) {
   h1 {
     text-align: center;
