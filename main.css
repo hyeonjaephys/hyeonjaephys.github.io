@@ -156,7 +156,7 @@ footer {
   width: 18px;
   height: 18px;
   opacity: 0.75;
-  margin-left: 6px;
+  margin-left: 10px;
 
   vertical-align: middle;
   position: relative;
@@ -169,11 +169,13 @@ footer {
   opacity: 1;
 }
 
-.icon-links a {
+.icon-links a,
+.icon-links a * {
   text-decoration: none !important;
 }
 
-.icon-links a:hover{
+.icon-links a:hover,
+.icon-links a:hover * {
   text-decoration: none !important;
 }
 
