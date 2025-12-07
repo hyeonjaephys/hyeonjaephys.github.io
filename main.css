@@ -85,6 +85,7 @@ sub {
 .navbar a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  text-transform: uppercase;
   font-weight: 400;
   color: #444;
   letter-spacing: 0.02em;
