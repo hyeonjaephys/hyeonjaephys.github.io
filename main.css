@@ -75,11 +75,16 @@ sub {
 
 .navbar {
   display: flex;
-  gap: 2em;                    
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.8em;
-  margin-bottom: 2.5em;
-  font-size: 1.05em;
+  gap: 2em;
+  padding: 0.8em 0;
+  
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
+  
+  margin-top: 24px;
+  margin-bottom: 28px;
+  
+  font-size: 0.95em;
 }
 
 .navbar a {
