@@ -61,7 +61,7 @@ h5 {
   padding-bottom: 0.2em;
   margin-top: 1.4em;
   margin-bottom: 0.4em;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 sub {
@@ -215,5 +215,4 @@ footer {
     align-items: center;
     gap: 0.6em;
   }
-}
 }
