@@ -22,7 +22,6 @@
 }
 
 .research-content h4 {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.02em;
   font-weight: 600;
   margin: 0 0 0.5em;
@@ -43,7 +42,6 @@
   text-decoration: underline;
 }
 
-/* 모바일 대응 */
 @media (max-width: 700px) {
   .research-item {
     flex-direction: column;
