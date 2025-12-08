@@ -117,8 +117,9 @@ sub {
 }
 
 strong {
-  font-weight: 600;
-  font-size: 1.02em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.01em;
 }
 
 a {
