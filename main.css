@@ -1,5 +1,5 @@
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   line-height: 1.65;
   color: #222;
@@ -117,6 +117,7 @@ sub {
 }
 
 strong {
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1.1em;
 }
@@ -154,7 +155,7 @@ footer {
 .name-row {
   display: flex;
   align-items: center;
-  gap: 12px;   /* 이름과 아이콘 간격 */
+  gap: 12px;
 }
 
 .icon-links img {
