@@ -1,5 +1,5 @@
 const link = document.createElement("link");
 link.rel = "icon";
-link.type = "image/svg+xml";
-link.href = "/icons/favicon.svg";
+link.type = "image/png";
+link.href = "/icons/favicon.png";
 document.head.appendChild(link);
