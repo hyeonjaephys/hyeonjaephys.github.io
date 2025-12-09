@@ -41,6 +41,10 @@
   text-decoration: underline;
 }
 
+.projects-footer {
+  border-top: none !important;
+}
+
 @media (max-width: 600px) {
   .projects-item {
     flex-direction: column;
