@@ -36,6 +36,18 @@
   text-decoration: underline;
 }
 
+.research-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.research-date {
+  color: #888;
+  font-weight: 400;
+}
+
 @media (max-width: 600px) {
   .research-item {
     flex-direction: column;
