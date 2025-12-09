@@ -36,10 +36,6 @@
   text-decoration: underline;
 }
 
-.research-footer {
-  border-top: none !important;
-}
-
 @media (max-width: 600px) {
   .research-item {
     flex-direction: column;
