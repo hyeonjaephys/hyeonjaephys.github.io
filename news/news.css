@@ -36,6 +36,10 @@
   text-decoration: underline;
 }
 
+.news-footer {
+  border-top: none !important;
+}
+
 @media (max-width: 600px) {
   .news-item {
     flex-direction: column;
