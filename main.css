@@ -156,8 +156,8 @@ footer {
 /* UL 기본 indent/여백 줄이기 */
 .works-list{
   list-style: disc;
-  margin: 0;                 /* 기본 margin 제거 */
-  padding-left: 1.05em;      /* bullet indent 얕게 */
+  margin: 0;
+  padding-left: 1.1em;      /* bullet indent */
 }
 
 /* LI = flex로 hanging indent 구현 */
