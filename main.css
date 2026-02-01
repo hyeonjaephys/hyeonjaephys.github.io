@@ -13,6 +13,19 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #222;
+
+  border-bottom: 1px solid #ddd;  /* 2px → 1px, #bbb → #ddd */
+  padding-bottom: 0.25em;
+
+  margin-top: 2.0em;
+  margin-bottom: 0.8em;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
