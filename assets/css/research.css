@@ -147,6 +147,59 @@
   transform: rotate(180deg);
 }
 
+/* ABSTRACT TOGGLE */
+
+.abstract-entry {
+  margin-top: 0.5em;
+}
+
+.abstract-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #111;
+}
+
+.abstract-title {
+  font-weight: 500;
+}
+
+.abstract-chevron {
+  font-size: 0.85em;
+  color: #888;
+  transition: transform 0.2s ease;
+}
+
+.abstract-detail {
+  display: none;
+  margin-top: 0.35em;
+
+  font-size: 0.92em;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* News처럼 촘촘하게 */
+.abstract-detail p {
+  margin: 0.2em 0;
+}
+
+.abstract-entry.open .abstract-detail {
+  display: block;
+}
+
+.abstract-entry.open .abstract-chevron {
+  transform: rotate(180deg);
+}
+
 /* FURTHER INFORMATION (bullet version, News spacing) */
 
 .further-entry {
