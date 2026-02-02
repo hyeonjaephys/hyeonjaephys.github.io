@@ -22,6 +22,13 @@
   
 <nav class="navbar">
   <a href="/">About</a>
-  <a href="/assets/files/CV_HK_260201.pdf" target="_blank">Curriculum vitae</a>
-  <a href="/research/">Research</a>
+  <a href="cv.html"
+   target="_blank"
+   onclick="gtag('event', 'click_cv_nav', {
+     'event_category': 'navigation',
+     'event_label': 'navbar_cv'
+   });">
+   Curriculum Vitae
+</a>
+<a href="/research/">Research</a>
 </nav>
