@@ -71,6 +71,19 @@
   font-weight: 400;
 }
 
+.affiliation-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #222;
+
+  border-bottom: 1px solid #ddd;  /* 2px → 1px, #bbb → #ddd */
+  padding-bottom: 0.25em;
+
+  margin-top: 1.0em;
+  margin-bottom: 0em;
+}
+
 /* RELATED WORK */
 
 .related-entry {
