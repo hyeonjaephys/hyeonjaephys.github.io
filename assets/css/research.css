@@ -1,16 +1,26 @@
 .research-item {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start;     /* 위쪽 정렬 고정 */
   gap: 1.5em;
-  margin-bottom: 2.5em;
-  padding-bottom: 1.5em;
+
+  margin: 0;                   /* 항목 간 들쑥날쑥 원인 제거 */
+  padding: 1.6em 0;            /* 위/아래 padding으로 “선과의 거리” 통일 */
   border-bottom: 1px solid #ddd;
+}
+
+.research-item:first-of-type {
+  padding-top: 0.8em;          /* 섹션 제목 바로 아래 첫 항목만 살짝 줄이기(선택) */
 }
 
 .research-item img {
   flex: 0 0 220px;
-  max-width: 220px;
+  width: 220px;                /* max-width 대신 width로 고정 → 정렬 안정 */
   height: auto;
+
+  display: block;              /* 이미지 아래 baseline 공백 제거 */
+  margin: 0;                   /* 혹시 모를 margin 제거 */
+  align-self: flex-start;      /* 이미지도 위쪽 기준선 고정 */
+
   border: 1px solid #ccc;
   background-color: #fafafa;
   box-sizing: border-box;
@@ -21,11 +31,21 @@
   min-width: 200px;
 }
 
+/* research-content 내부 기본 마진 “통일” */
 .research-content h4 {
   font-size: 1.05em;
   font-weight: 500;
-  margin: 0 0 0.5em;
+  margin: 0 0 0.35em;          /* 제목 아래 간격만 일정하게 */
   color: #222;
+}
+
+/* 문단/기타 요소가 각 항목마다 margin 달라서 흔들리는 걸 방지 */
+.research-content p {
+  margin: 0.35em 0;            /* 뉴스처럼 촘촘한 값 */
+}
+
+.research-content p:first-child {
+  margin-top: 0;               /* 상단 기준선 흔들림 방지 */
 }
 
 .research-content a {
