@@ -41,6 +41,69 @@
   font-weight: 400;
 }
 
+/* RELATED WORK */
+
+.related-entry {
+  margin: 0.6em 0;
+}
+
+.related-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  color: #111;
+}
+
+.related-title {
+  font-weight: 500;
+}
+
+.related-chevron {
+  margin-left: auto;
+  font-size: 0.85em;
+  color: #888;
+  transition: transform 0.2s ease;
+}
+
+.related-detail {
+  display: none;
+  margin-top: 0.35em;
+  font-size: 0.92em;
+  color: #444;
+  line-height: 1.45;
+}
+
+.related-item {
+  display: flex;
+  gap: 0.8em;
+  margin: 0.2em 0;
+}
+
+.related-label {
+  min-width: 6.5em;
+  color: #666;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.related-text {
+  flex: 1;
+}
+
+.related-entry.open .related-detail {
+  display: block;
+}
+
+.related-entry.open .related-chevron {
+  transform: rotate(180deg);
+}
+
 @media (max-width: 600px) {
   .research-item {
     flex-direction: column;
