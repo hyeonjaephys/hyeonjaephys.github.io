@@ -15,14 +15,14 @@
 
   display: block;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   box-sizing: border-box;
 
   object-fit: cover;           /* contain */
   object-position: top center;   /* 위쪽 기준으로 정렬 (원하면 center로) */
 
   border: 1px solid #ccc;
-  background-color: #fafafa;
+  background-color: none; /*#fafafa*/
   border-radius: 2px;            /* 선택: 아주 살짝만 */
 }
 
