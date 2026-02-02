@@ -173,7 +173,7 @@
 }
 
 .further-chevron {
-  margin-left: auto;
+  margin-left: 0; /* auto */
   font-size: 0.85em;
   color: #888;
   transition: transform 0.2s ease;
