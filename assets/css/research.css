@@ -1,34 +1,44 @@
 .research-item {
   display: flex;
-  align-items: flex-start;     /* 위쪽 정렬 고정 */
-  gap: 1.5em;
+  align-items: flex-start;
+  gap: 1.6em;
 
-  margin: 0;                   /* 항목 간 들쑥날쑥 원인 제거 */
-  padding: 1.6em 0;            /* 위/아래 padding으로 “선과의 거리” 통일 */
+  margin: 0;
+  padding: 1.4em 0;
   border-bottom: 1px solid #ddd;
 }
 
-.research-item:first-of-type {
-  padding-top: 0.8em;          /* 섹션 제목 바로 아래 첫 항목만 살짝 줄이기(선택) */
-}
-
 .research-item img {
-  flex: 0 0 220px;
-  width: 220px;                /* max-width 대신 width로 고정 → 정렬 안정 */
-  height: auto;
+  flex: 0 0 270px;
+  width: 270px;
+  height: 190px;                 /* 🔥 핵심: 높이 고정 */
 
-  display: block;              /* 이미지 아래 baseline 공백 제거 */
-  margin: 0;                   /* 혹시 모를 margin 제거 */
-  align-self: flex-start;      /* 이미지도 위쪽 기준선 고정 */
+  display: block;
+  margin: 0;
+  padding: 10px;                 /* 🔥 핵심: 내부 여백을 동일하게 */
+  box-sizing: border-box;
+
+  object-fit: contain;           /* 잘리지 않게, 박스 안에서 맞춤 */
+  object-position: top center;   /* 위쪽 기준으로 정렬 (원하면 center로) */
 
   border: 1px solid #ccc;
   background-color: #fafafa;
-  box-sizing: border-box;
+  border-radius: 2px;            /* 선택: 아주 살짝만 */
 }
 
 .research-content {
   flex: 1;
-  min-width: 200px;
+  min-width: 220px;
+}
+
+.research-content {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* content 상단 기준선 흔들림 방지 */
+.research-content > *:first-child {
+  margin-top: 0 !important;
 }
 
 /* research-content 내부 기본 마진 “통일” */
