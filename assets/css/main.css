@@ -148,47 +148,6 @@ footer {
   text-align: center;
 }
 
-/* RESEARCH */
-.works-label{
-  margin: 0.6rem 0 0.4rem;   /* 위/아래 간격 줄이기 */
-}
-
-/* UL 기본 indent/여백 줄이기 */
-.works-list{
-  list-style: disc;
-  margin: 0;
-  padding-left: 1.1em;      /* bullet indent */
-}
-
-/* LI = flex로 hanging indent 구현 */
-.work-item{
-  display: flex;
-  align-items: flex-start;
-  gap: 0.55em;
-
-  margin: 0.18em 0;          /* 항목 간격 촘촘 */
-  line-height: 1.45;
-}
-
-/* 타입 라벨: 고정폭(이게 두 줄 정렬의 핵심) */
-.work-type{
-  flex: 0 0 6.7em;           /* Publication/Conference/Software 맞춰서 조절 */
-  font-size: 0.95em;
-  color: #666;
-  white-space: nowrap;
-}
-
-/* 제목 영역 */
-.work-item a{
-  flex: 1 1 auto;
-  min-width: 0;              /* 긴 텍스트 줄바꿈 안정화(중요) */
-
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: #d0d0d0;
-  text-underline-offset: 2px;
-}
-
 /* NEWS */
 
 .news-entry {
