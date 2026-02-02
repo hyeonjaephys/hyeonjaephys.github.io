@@ -204,6 +204,28 @@
   transform: rotate(180deg);
 }
 
+/* RESOURCES */
+
+.resources {
+  margin-top: 0.6em;
+}
+
+.resource-entry {
+  margin: 0.25em 0;
+  font-size: 0.95em;
+  color: #222;
+}
+
+.resource-entry a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resource-entry a:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 600px) {
   .research-item {
     flex-direction: column;
