@@ -9,13 +9,13 @@
 }
 
 .research-item img {
-  flex: 0 0 270px;
-  width: 270px;
-  height: 190px;                 /* 🔥 핵심: 높이 고정 */
+  flex: 0 0 240px;
+  width: 240px;
+  height: 170px;
 
   display: block;
   margin: 0;
-  padding: 10px;                 /* 🔥 핵심: 내부 여백을 동일하게 */
+  padding: 10px;
   box-sizing: border-box;
 
   object-fit: contain;           /* 잘리지 않게, 박스 안에서 맞춤 */
