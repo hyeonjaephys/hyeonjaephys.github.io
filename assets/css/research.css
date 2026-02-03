@@ -19,11 +19,11 @@
   box-sizing: border-box;
 
   object-fit: cover;           /* contain */
-  object-position: top center;   /* 위쪽 기준으로 정렬 (원하면 center로) */
+  object-position: top center;
 
   border: 1px solid #ccc;
   background-color: none; /*#fafafa*/
-  border-radius: 2px;            /* 선택: 아주 살짝만 */
+  border-radius: 2px;
 }
 
 .research-content {
@@ -36,7 +36,6 @@
   min-width: 220px;
 }
 
-/* content 상단 기준선 흔들림 방지 */
 .research-content > *:first-child {
   margin-top: 0 !important;
 }
@@ -54,7 +53,7 @@
 }
 
 .research-content p:first-child {
-  margin-top: 0;               /* 상단 기준선 흔들림 방지 */
+  margin-top: 0;
 }
 
 .research-content a {
@@ -76,7 +75,7 @@
   font-size: 1.1em;
   color: #222;
 
-  border-bottom: 1px solid #ddd;  /* 2px → 1px, #bbb → #ddd */
+  border-bottom: 1px solid #ddd;
   padding-bottom: 0.25em;
 
   margin-top: 1.0em;
@@ -199,7 +198,7 @@
   transform: rotate(180deg);
 }
 
-/* FURTHER INFORMATION (bullet version, News spacing) */
+/* FURTHER INFORMATION */
 
 .further-entry {
   margin: 0.6em 0;
@@ -231,7 +230,6 @@
   transition: transform 0.2s ease;
 }
 
-/* 숨겨진 상태 */
 .further-detail {
   display: none;
   margin-top: 0.35em;
@@ -242,12 +240,10 @@
   line-height: 1.45;
 }
 
-/* News처럼 촘촘한 줄 간격 */
 .further-detail li {
   margin: 0.2em 0;
 }
 
-/* open 상태 */
 .further-entry.open .further-detail {
   display: block;
 }
