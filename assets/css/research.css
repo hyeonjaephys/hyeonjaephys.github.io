@@ -187,9 +187,9 @@
   line-height: 1.5;
 }
 
-/* News처럼 촘촘하게 */
 .abstract-detail p {
   margin: 0.2em 0;
+  text-align: justify;
 }
 
 .abstract-entry.open .abstract-detail {
@@ -313,5 +313,9 @@
 
   .research-content {
     margin-top: 1em;
+  }
+
+  .abstract-detail p {
+    text-align: left;
   }
 }
