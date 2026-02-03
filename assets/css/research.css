@@ -44,13 +44,13 @@
 .research-content h4 {
   font-size: 1.05em;
   font-weight: 500;
-  margin: 0 0 0.35em;          /* 제목 아래 간격만 일정하게 */
+  margin: 0 0 0.35em;
   color: #222;
 }
 
-/* 문단/기타 요소가 각 항목마다 margin 달라서 흔들리는 걸 방지 */
 .research-content p {
-  margin: 0.35em 0;            /* 뉴스처럼 촘촘한 값 */
+  margin: 0.35em 0;
+  text-align: justify;
 }
 
 .research-content p:first-child {
