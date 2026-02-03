@@ -294,6 +294,7 @@ footer {
 
   .about-text p {
     text-align: left;
+  }
   
   .news-toggle {
     flex-direction: column;
