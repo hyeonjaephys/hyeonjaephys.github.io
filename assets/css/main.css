@@ -41,6 +41,16 @@ h1 {
   color: #111;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.05em;
+  color: #222;
+
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+}
+
 h4, h5 {
   font-family: "Outfit", sans-serif;  /* ← Inter → Questrial */
   font-weight: 400;
