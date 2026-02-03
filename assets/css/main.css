@@ -70,6 +70,13 @@ sub {
   line-height: 1;
 }
 
+.about-text p {
+  margin: 0.3em 0; 
+  line-height: 1.6;
+  text-align: justify;
+  color: #222;
+}
+
 /* NAVIGATION */
 
 .navbar {
@@ -102,7 +109,6 @@ sub {
 
 .entry {
   margin-bottom: 1.2em;
-  text-align: justify;
 }
 
 .entry-title {
@@ -286,10 +292,13 @@ footer {
     gap: 0.6em;
   }
 
+  .about-text p {
+    text-align: left;
+  
     .news-toggle {
-    flex-direction: column;     /* 세로로 쌓기 */
-    align-items: flex-start;    /* 왼쪽 정렬 */
-    gap: 0.1em;                 /* 모바일에서 촘촘하게 */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1em;
   }
 
   .news-date {
