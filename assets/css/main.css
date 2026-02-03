@@ -102,6 +102,7 @@ sub {
 
 .entry {
   margin-bottom: 1.2em;
+  text-align: justify;
 }
 
 .entry-title {
