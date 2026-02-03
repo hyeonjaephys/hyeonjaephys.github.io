@@ -295,7 +295,7 @@ footer {
   .about-text p {
     text-align: left;
   
-    .news-toggle {
+  .news-toggle {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.1em;
