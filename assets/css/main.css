@@ -47,6 +47,9 @@ h3 {
   font-size: 1.05em;
   color: #222;
 
+  border-bottom: 0.8px solid #ddd;
+  padding-bottom: 0.2em;
+  
   margin-top: 0.8em;
   margin-bottom: 0.3em;
 }
