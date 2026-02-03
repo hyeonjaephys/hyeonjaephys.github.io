@@ -284,4 +284,25 @@ footer {
     align-items: center;
     gap: 0.6em;
   }
+
+    .news-toggle {
+    flex-direction: column;     /* 세로로 쌓기 */
+    align-items: flex-start;    /* 왼쪽 정렬 */
+    gap: 0.1em;                 /* 모바일에서 촘촘하게 */
+  }
+
+  .news-date {
+    order: -1;
+    font-size: 0.8em;
+    color: #888;
+  }
+
+  .news-title {
+    order: 0;
+  }
+
+  .chevron {
+    order: 1;                   /* 필요하면 맨 아래 */
+    align-self: flex-end;       /* ▾는 오른쪽 */
+  }
 }
