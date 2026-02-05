@@ -13,6 +13,28 @@ document.addEventListener("DOMContentLoaded", () => {
     entry.classList.add("open");
   }
 
+  function openProjectTogglesIfAny(target) {
+    const item = target.closest(".research-item");
+    if (!item) return false;
+
+    forceOpen(item.querySelector(".abstract-entry"), ".abstract-toggle");
+    item.querySelectorAll(".further-entry").forEach((entry) => {
+      forceOpen(entry, ".further-toggle");
+    });
+    return true;
+  }
+
+  function openAddRelatedIfInAddSection(target) {
+    const addScope = document.getElementById("add-section");
+    if (!addScope) return;
+
+    if (!addScope.contains(target)) return;
+
+    addScope.querySelectorAll(".related-entry").forEach((entry) => {
+      forceOpen(entry, ".related-toggle");
+    });
+  }
+
   function openAllForHash() {
     const hash = window.location.hash;
     if (!hash || hash.length < 2) return;
@@ -21,16 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const target = document.getElementById(id);
     if (!target) return;
 
-    const item = target.closest(".research-item");
-    if (!item) return;
+    openProjectTogglesIfAny(target);
 
-    // Abstract
-    forceOpen(item.querySelector(".abstract-entry"), ".abstract-toggle");
-
-    // Further information
-    item.querySelectorAll(".further-entry").forEach((entry) => {
-      forceOpen(entry, ".further-toggle");
-    });
+    openAddRelatedIfInAddSection(target);
 
     target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
