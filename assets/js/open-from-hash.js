@@ -13,24 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
     entry.classList.add("open");
   }
 
-  function openProjectTogglesIfAny(target) {
-    const item = target.closest(".research-item");
-    if (!item) return false;
+  function openTogglesInResearchItem(item) {
+    if (!item) return;
 
+    // Abstract
     forceOpen(item.querySelector(".abstract-entry"), ".abstract-toggle");
+
+    // Further information / Resources
     item.querySelectorAll(".further-entry").forEach((entry) => {
       forceOpen(entry, ".further-toggle");
     });
-    return true;
-  }
 
-  function openAddRelatedIfInAddSection(target) {
-    const addScope = document.getElementById("add-section");
-    if (!addScope) return;
-
-    if (!addScope.contains(target)) return;
-
-    addScope.querySelectorAll(".related-entry").forEach((entry) => {
+    // Related
+    item.querySelectorAll(".related-entry").forEach((entry) => {
       forceOpen(entry, ".related-toggle");
     });
   }
@@ -43,9 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const target = document.getElementById(id);
     if (!target) return;
 
-    openProjectTogglesIfAny(target);
-
-    openAddRelatedIfInAddSection(target);
+    const item = target.closest(".research-item");
+    if (item) openTogglesInResearchItem(item);
 
     target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
