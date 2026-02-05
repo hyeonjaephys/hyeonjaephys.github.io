@@ -26,6 +26,14 @@ html, body {
   margin-bottom: 0.4em;
 }
 
+.section-subtitle {
+  margin-top: 0.4em;
+  margin-bottom: 1.0em;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+}
+
 .last-updated {
   margin-top: 0.8em;
   font-size: 0.85em;
