@@ -1,5 +1,5 @@
 ```md
-# hyeonjaephys.github.io
+# hyeonjae.com
 
 Personal academic website of **Hyeonjae Kim**.
 
