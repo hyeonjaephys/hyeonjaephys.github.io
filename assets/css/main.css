@@ -254,10 +254,15 @@ footer {
 }
 
 .news-date {
-  flex: 0 0 8.8em;
   white-space: nowrap;
   color: #666;
   font-size: 0.9em;
+}
+
+@media (min-width: 601px) {
+  .news-date {
+    flex: 0 0 8em;
+  }
 }
 
 .news-title {
@@ -332,7 +337,6 @@ footer {
   }
 
   .news-date {
-    flex-basis: auto;
     order: -1;
     font-size: 0.8em;
     color: #888;
