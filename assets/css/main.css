@@ -161,7 +161,7 @@ sub {
 
 .site-header--compact h1 {
   margin: 0;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 .site-header--compact .navbar {
@@ -254,6 +254,7 @@ footer {
 }
 
 .news-date {
+  flex: 0 0 8.8em;
   white-space: nowrap;
   color: #666;
   font-size: 0.9em;
@@ -331,6 +332,7 @@ footer {
   }
 
   .news-date {
+    flex-basis: auto;
     order: -1;
     font-size: 0.8em;
     color: #888;
