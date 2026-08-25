@@ -246,66 +246,11 @@ footer {
   text-decoration-color: #999;
 }
 
-/*CONTACT ICONS*/
-
-.name-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.icon-links img {
-  width: 26px;
-  height: 26px;
-  opacity: 0.75;
-  margin-left: 7px;
-
-  vertical-align: middle;
-  position: relative;
-  top: -1px;
-  
-  transition: opacity 0.2s ease;
-}
-
-.icon-links img:hover {
-  opacity: 1;
-}
-
-.icon-links a,
-.icon-links a * {
-  text-decoration: none !important;
-}
-
-.icon-links a:hover,
-.icon-links a:hover * {
-  text-decoration: none !important;
-}
-
 @media (max-width: 600px) {
-  
-  .name-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.25em;
-    text-align: center;
-  }
 
-  .name-row h1 {
+  h1 {
     margin: 0;
     text-align: center;
-  }
-
-  .name-row .icon-links {
-    display: flex;
-    justify-content: center;
-    gap: 0.5em;
-    margin-top: 0.1em;
-  }
-  
-  .name-row .icon-links img {
-    width: 20px;
-    height: 20px;
   }
 
   .navbar {
