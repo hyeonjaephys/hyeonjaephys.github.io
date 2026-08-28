@@ -100,6 +100,17 @@ sub {
 
 /* NAVIGATION */
 
+.site-name {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.site-name:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .site-header {
   display: flex;
   flex-direction: column;
