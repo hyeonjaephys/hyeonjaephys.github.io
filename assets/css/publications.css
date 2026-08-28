@@ -2,7 +2,6 @@
   margin: 0.4em 0 0;
   padding: 0;
   list-style: none;
-  counter-reset: publication;
 }
 
 .publication-item {
@@ -11,11 +10,10 @@
   column-gap: 0.45em;
 
   margin-bottom: 1.2em;
-  counter-increment: publication;
 }
 
 .publication-item::before {
-  content: counter(publication) ".";
+  content: attr(value) ".";
   text-align: right;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
