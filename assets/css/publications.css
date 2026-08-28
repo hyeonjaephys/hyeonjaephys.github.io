@@ -1,0 +1,44 @@
+.publication-list {
+  margin: 0.4em 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: publication;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 1.7em minmax(0, 1fr);
+  column-gap: 0.45em;
+
+  margin-bottom: 1.2em;
+  counter-increment: publication;
+}
+
+.publication-item::before {
+  content: counter(publication) ".";
+  text-align: right;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+.publication-details {
+  min-width: 0;
+}
+
+.publication-title,
+.publication-venue,
+.publication-authors {
+  line-height: 1.5;
+}
+
+.publication-title {
+  font-size: 1.05em;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .publication-item {
+    grid-template-columns: 1.5em minmax(0, 1fr);
+    column-gap: 0.35em;
+  }
+}
