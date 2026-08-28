@@ -43,11 +43,10 @@
 }
 
 .author-marker {
-  display: inline-block;
-  margin-left: 0.08em;
-  font-size: 0.86em;
-  line-height: 1;
-  vertical-align: 0.12em;
+  margin-left: 0.06em;
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
 }
 
 .author-note {
@@ -64,6 +63,10 @@
 
 .conference-citation {
   line-height: 1.55;
+}
+
+.conference-title {
+  font-weight: 400;
 }
 
 .conference-name {
@@ -84,9 +87,14 @@
 .conference-abstract summary {
   width: fit-content;
   cursor: pointer;
+  list-style: none;
   color: #555;
   font-size: 0.88em;
   font-weight: 400;
+}
+
+.conference-abstract summary::-webkit-details-marker {
+  display: none;
 }
 
 .conference-abstract summary:hover {
