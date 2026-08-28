@@ -24,10 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
       forceOpen(entry, ".further-toggle");
     });
 
-    // Related
-    item.querySelectorAll(".related-entry").forEach((entry) => {
-      forceOpen(entry, ".related-toggle");
-    });
   }
 
   function openAllForHash() {
