@@ -30,7 +30,7 @@
 }
 
 .manuscript-item::before {
-  content: "\\2022";
+  content: "\2022";
   grid-column: 1;
   grid-row: 1;
   text-align: right;
