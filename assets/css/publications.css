@@ -1,6 +1,7 @@
 /* JOURNAL ARTICLES */
 
 .journal-list,
+.manuscript-list,
 .conference-list {
   margin: 0.4em 0 0;
   padding: 0;
@@ -33,13 +34,17 @@
 
 .journal-title,
 .journal-venue,
-.journal-authors {
+.journal-authors,
+.manuscript-title,
+.manuscript-status,
+.manuscript-authors {
   line-height: 1.5;
 }
 
-.journal-title {
+.journal-title,
+.manuscript-title {
   font-size: 1.05em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .author-marker {
@@ -56,6 +61,13 @@
   line-height: 1.5;
 }
 
+/* MANUSCRIPTS */
+
+.manuscript-item {
+  margin-bottom: 1.2em;
+  padding-left: 2.15em;
+}
+
 /* CONFERENCE PRESENTATIONS */
 
 .conference-item {
@@ -67,7 +79,7 @@
 }
 
 .conference-title {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .conference-name {
@@ -138,6 +150,10 @@
     column-gap: 0.35em;
   }
 
+
+  .manuscript-item {
+    padding-left: 1.85em;
+  }
 
   .conference-abstract-content p {
     text-align: left;
