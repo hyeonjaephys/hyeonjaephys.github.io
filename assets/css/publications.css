@@ -9,13 +9,15 @@
 }
 
 .journal-item,
+.manuscript-item,
 .conference-item {
   display: grid;
   grid-template-columns: 1.7em minmax(0, 1fr);
   column-gap: 0.45em;
 }
 
-.journal-item {
+.journal-item,
+.manuscript-item {
   margin-bottom: 1.2em;
 }
 
@@ -25,6 +27,15 @@
   text-align: right;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
+}
+
+.manuscript-item::before {
+  content: "\\2022";
+  grid-column: 1;
+  grid-row: 1;
+  text-align: right;
+  font-size: 0.78em;
+  line-height: 1.9;
 }
 
 .journal-details,
@@ -63,9 +74,12 @@
 
 /* MANUSCRIPTS */
 
-.manuscript-item {
-  margin-bottom: 1.2em;
-  padding-left: 2.15em;
+.manuscript-item > * {
+  grid-column: 2;
+}
+
+.manuscript-status {
+  font-style: italic;
 }
 
 /* CONFERENCE PRESENTATIONS */
@@ -145,15 +159,12 @@
 
 @media (max-width: 600px) {
   .journal-item,
+  .manuscript-item,
   .conference-item {
     grid-template-columns: 1.5em minmax(0, 1fr);
     column-gap: 0.35em;
   }
 
-
-  .manuscript-item {
-    padding-left: 1.85em;
-  }
 
   .conference-abstract-content p {
     text-align: left;
