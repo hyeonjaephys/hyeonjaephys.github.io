@@ -70,7 +70,11 @@
   margin-left: 0.06em;
   font-size: 0.72em;
   line-height: 0;
-  vertical-align: super;
+  vertical-align: 0.34em;
+}
+
+.equal-contribution-marker {
+  vertical-align: 0.2em;
 }
 
 .publications-intro {
