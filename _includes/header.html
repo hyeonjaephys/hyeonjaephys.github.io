@@ -1,5 +1,11 @@
 <header class="site-header{% unless page.url == '/' %} site-header--compact{% endunless %}">
-  <h1><a class="site-name" href="/" aria-label="About Hyeonjae Kim">Hyeonjae Kim</a></h1>
+  <h1>
+    {% if page.url == '/' %}
+      <span class="site-name">Hyeonjae Kim</span>
+    {% else %}
+      <a class="site-name" href="/" aria-label="About Hyeonjae Kim">Hyeonjae Kim</a>
+    {% endif %}
+  </h1>
 
   <nav class="navbar">
     <a href="/assets/files/HyeonjaeKim_CV.pdf"
