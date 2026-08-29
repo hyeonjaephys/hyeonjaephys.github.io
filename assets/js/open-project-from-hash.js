@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     entry.classList.add("open");
   }
 
-  function openTogglesInResearchItem(item) {
+  function openTogglesInProjectItem(item) {
     if (!item) return;
 
     // Abstract
@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const target = document.getElementById(id);
     if (!target) return;
 
-    const item = target.closest(".research-item");
-    if (item) openTogglesInResearchItem(item);
+    const item = target.closest(".project-item");
+    if (item) openTogglesInProjectItem(item);
 
     target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
