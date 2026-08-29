@@ -36,16 +36,6 @@
   font-variant-numeric: tabular-nums;
 }
 
-.manuscript-item::before {
-  content: "\2022";
-  grid-column: 1;
-  grid-row: 1;
-  align-self: start;
-  text-align: center;
-  font-size: 1.22em;
-  line-height: 1.27;
-}
-
 .journal-details,
 .conference-details {
   min-width: 0;
