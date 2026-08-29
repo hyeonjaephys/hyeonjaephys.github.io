@@ -106,7 +106,7 @@ sub {
   text-decoration: none;
 }
 
-.site-name:hover {
+a.site-name:hover {
   color: inherit;
   text-decoration: underline;
 }
