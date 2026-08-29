@@ -104,6 +104,12 @@
   font-weight: 400;
 }
 
+.journal-authors strong,
+.manuscript-authors strong,
+.conference-citation strong {
+  font-weight: 400;
+}
+
 .conference-name {
   font-weight: 300;
 }
@@ -128,24 +134,24 @@
 
 .conference-abstract summary {
   width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
   cursor: pointer;
   list-style: none;
-  color: #555;
-  font-size: 0.88em;
+  color: #222;
+  font-size: 0.9em;
   font-weight: 400;
 }
 
-.conference-abstract summary::before {
-  content: "▸";
-  display: inline-block;
-  margin-right: 0.3em;
-  font-size: 0.65em;
-  transform-origin: center;
-  transition: transform 0.15s ease;
+.conference-abstract-chevron {
+  color: #888;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
 }
 
-.conference-abstract[open] summary::before {
-  transform: rotate(90deg);
+.conference-abstract[open] .conference-abstract-chevron {
+  transform: rotate(180deg);
 }
 
 .conference-abstract summary::-webkit-details-marker {
@@ -154,7 +160,6 @@
 
 .conference-abstract summary:hover {
   color: #111;
-  text-decoration: underline;
 }
 
 .conference-abstract-content {
