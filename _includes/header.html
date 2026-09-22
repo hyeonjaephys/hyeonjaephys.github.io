@@ -10,8 +10,10 @@
   <nav class="navbar">
     <a href="/assets/files/HyeonjaeKim_CV.pdf"
        target="_blank"
-       data-analytics-event="cv_click"
-       data-analytics-location="navbar">
+       onclick="gtag('event', 'click_cv_nav', {
+         'event_category': 'navigation',
+         'event_label': 'navbar_cv'
+       });">
       Curriculum Vitae
     </a>
 
