@@ -67,6 +67,16 @@ sub {
   color: #222;
 }
 
+.about-text a[href="https://www.add.re.kr"] {
+  font-weight: inherit;
+}
+
+.about-text a[href="https://www.add.re.kr"]:hover,
+.about-text a[href="https://www.add.re.kr"]:focus-visible {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
 /* NAVIGATION */
 
 .site-name {
