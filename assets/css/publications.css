@@ -80,8 +80,9 @@
   grid-column: 2;
 }
 
+.journal-venue,
 .manuscript-status {
-  font-style: italic;
+  font-style: normal;
 }
 
 /* CONFERENCE PRESENTATIONS */
