@@ -16,11 +16,13 @@
 }
 
 .journal-item,
-.manuscript-item,
 .conference-item {
   display: grid;
-  grid-template-columns: 1.7em minmax(0, 1fr);
-  column-gap: 0.45em;
+}
+
+.journal-item {
+  grid-template-columns: 2.5ch minmax(0, 1fr);
+  column-gap: 0.35em;
 }
 
 .journal-item,
@@ -31,29 +33,26 @@
 .journal-item::before,
 .conference-item::before {
   content: attr(value) ".";
-  text-align: right;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
 }
 
-.journal-details,
+.journal-item::before {
+  text-align: start;
+}
+
+.conference-item::before {
+  text-align: right;
+}
+
 .conference-details {
   min-width: 0;
 }
 
-.journal-title,
-.journal-venue,
-.journal-authors,
-.manuscript-title,
-.manuscript-status,
-.manuscript-authors {
-  line-height: 1.5;
-}
-
-.journal-title,
-.manuscript-title {
-  font-size: 1.05em;
-  font-weight: 400;
+.publication-citation {
+  margin: 0;
+  min-width: 0;
+  line-height: 1.55;
 }
 
 .author-marker {
@@ -74,20 +73,11 @@
   line-height: 1.5;
 }
 
-/* MANUSCRIPTS */
-
-.manuscript-item > * {
-  grid-column: 2;
-}
-
-.journal-venue,
-.manuscript-status {
-  font-style: normal;
-}
-
 /* CONFERENCE PRESENTATIONS */
 
 .conference-item {
+  grid-template-columns: 1.7em minmax(0, 1fr);
+  column-gap: 0.45em;
   margin-bottom: 1.15em;
 }
 
@@ -99,8 +89,6 @@
   font-weight: 400;
 }
 
-.journal-authors strong,
-.manuscript-authors strong,
 .conference-citation strong {
   font-weight: 400;
 }
@@ -174,8 +162,6 @@
 }
 
 @media (max-width: 600px) {
-  .journal-item,
-  .manuscript-item,
   .conference-item {
     grid-template-columns: 1.5em minmax(0, 1fr);
     column-gap: 0.35em;
