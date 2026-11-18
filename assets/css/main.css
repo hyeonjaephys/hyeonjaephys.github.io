@@ -79,9 +79,9 @@ sub {
 /* NAVIGATION */
 
 .site-name {
-  font-family: "Outfit", sans-serif;
+  font-family: "Baskervville", Georgia, serif;
   color: inherit;
-  font-weight: 350;
+  font-weight: 400;
   text-decoration: none;
 }
 
