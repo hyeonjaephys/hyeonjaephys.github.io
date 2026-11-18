@@ -15,7 +15,7 @@ html, body {
 
 html {
   scrollbar-gutter: stable both-edges;
-  scroll-padding-top: 4rem;
+  scroll-padding-top: 4.5rem;
 }
 
 .section-title {
@@ -135,6 +135,7 @@ a.site-name:hover {
   justify-content: space-between;
   gap: 2em;
 
+  padding-block: 0.625rem;
   border-bottom: 1px solid #ddd;
   margin-bottom: 28px;
 }
@@ -149,7 +150,7 @@ a.site-name:hover {
   flex-shrink: 0;
 
   margin: 0;
-  padding: 0.8em 0;
+  padding: 0;
 
   border-top: none;
   border-bottom: none;
@@ -306,7 +307,7 @@ footer {
 @media (max-width: 600px) {
 
   html {
-    scroll-padding-top: 12rem;
+    scroll-padding-top: 13.5rem;
   }
 
   h1 {
@@ -323,8 +324,8 @@ footer {
   .site-header--compact {
     flex-direction: column;
     align-items: center;
-    gap: 0.25em;
-    padding-bottom: 0.8em;
+    gap: 1rem;
+    padding-block: 1.625rem;
   }
 
   .site-header--compact .navbar {
