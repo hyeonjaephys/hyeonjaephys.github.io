@@ -101,7 +101,7 @@ a.site-name:hover {
     justify-content: flex-end;
 
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 
     border-top: none;
   }
