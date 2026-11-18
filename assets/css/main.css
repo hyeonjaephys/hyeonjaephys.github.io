@@ -15,6 +15,7 @@ html, body {
 
 html {
   scrollbar-gutter: stable both-edges;
+  scroll-padding-top: 4rem;
 }
 
 .section-title {
@@ -96,8 +97,12 @@ a.site-name:hover {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 
 .navbar {
@@ -298,6 +303,10 @@ footer {
 
 
 @media (max-width: 600px) {
+
+  html {
+    scroll-padding-top: 12rem;
+  }
 
   h1 {
     margin: 0;
