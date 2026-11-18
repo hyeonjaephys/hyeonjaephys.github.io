@@ -199,6 +199,12 @@ a:hover * {
   font-size: 0.8em;
 }
 
+.text-action-arrow {
+  flex: none;
+  inline-size: 1em;
+  block-size: 1em;
+}
+
 .text-action:hover,
 .conference-abstract summary:hover {
   color: #111;
@@ -308,6 +314,15 @@ footer {
 
   html {
     scroll-padding-top: 13.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-copyright {
+    margin-inline-start: 0;
+    text-align: left;
   }
 
   h1 {
