@@ -49,8 +49,9 @@
   line-height: 1.55;
 }
 
-.publication-author-name {
-  font-weight: 350;
+.publication-author-name,
+.conference-citation strong {
+  font-weight: 400;
 }
 
 .author-marker {
@@ -82,10 +83,6 @@
 }
 
 .conference-title {
-  font-weight: 400;
-}
-
-.conference-citation strong {
   font-weight: 400;
 }
 
