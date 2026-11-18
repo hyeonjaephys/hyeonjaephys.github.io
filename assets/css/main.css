@@ -80,6 +80,7 @@ sub {
 /* NAVIGATION */
 
 .site-name {
+  font-family: "Outfit", sans-serif;
   color: inherit;
   font-weight: inherit;
   text-decoration: none;
