@@ -275,6 +275,10 @@ footer {
     padding-bottom: 0.8em;
   }
 
+  .site-header--compact h1 {
+    font-size: 1.6em;
+  }
+
   .site-header--compact .navbar {
     width: 100%;
   }
