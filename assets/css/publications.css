@@ -49,6 +49,10 @@
   line-height: 1.55;
 }
 
+.publication-author-name {
+  font-weight: 350;
+}
+
 .author-marker {
   margin-left: -0.08em;
   font-size: 0.72em;
