@@ -250,7 +250,6 @@ footer {
   margin: 0.4em 0;
 }
 
-.news-row,
 .news-toggle {
   width: 100%;
   background: none;
@@ -259,19 +258,11 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.6em;
+  cursor: pointer;
   text-align: left;
   font-family: inherit;
   font-size: 0.95em;
   color: #222;
-}
-
-.news-row {
-  font-weight: 400;
-  line-height: normal;
-}
-
-.news-toggle {
-  cursor: pointer;
 }
 
 .news-toggle:hover {
@@ -364,7 +355,6 @@ footer {
     text-align: left;
   }
   
-  .news-row,
   .news-toggle {
     flex-direction: column;
     align-items: flex-start;
