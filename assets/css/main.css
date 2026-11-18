@@ -59,25 +59,6 @@ sub {
   line-height: 1;
 }
 
-.profile-summary {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.2em 0.75em;
-  margin: 0 0 0.7em;
-  padding: 0;
-  list-style: none;
-  font-size: 0.9em;
-  font-weight: 400;
-  color: #666;
-}
-
-@media (min-width: 601px) {
-  .profile-summary li + li::before {
-    content: "·" / "";
-    margin-inline-end: 0.75em;
-  }
-}
-
 .about-text p {
   margin: 0.3em 0; 
   line-height: 1.6;
