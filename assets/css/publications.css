@@ -106,28 +106,9 @@
 
 /* PUBLICATION LINKS AND ABSTRACT TOGGLES */
 
-.publication-link,
+.publication-details .text-action,
 .conference-abstract {
   margin-top: 0.25em;
-}
-
-.publication-link,
-.conference-abstract summary {
-  width: fit-content;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
-  cursor: pointer;
-  list-style: none;
-  color: #222;
-  font-size: 0.9em;
-  font-weight: 400;
-}
-
-.publication-link-arrow,
-.conference-abstract-chevron {
-  color: #888;
-  font-size: 0.8em;
 }
 
 .conference-abstract-chevron {
@@ -140,16 +121,6 @@
 
 .conference-abstract summary::-webkit-details-marker {
   display: none;
-}
-
-.publication-link:hover,
-.conference-abstract summary:hover {
-  color: #111;
-}
-
-.publication-link:hover,
-.publication-link:hover > span {
-  text-decoration: none;
 }
 
 .conference-abstract-content {

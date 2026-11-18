@@ -178,6 +178,44 @@ a:hover * {
   text-decoration: underline;
 }
 
+/* TEXT ACTIONS */
+
+.text-action,
+.conference-abstract summary {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  cursor: pointer;
+  list-style: none;
+  color: #222;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.text-action-arrow,
+.conference-abstract-chevron {
+  color: #888;
+  font-size: 0.8em;
+}
+
+.text-action:hover,
+.conference-abstract summary:hover {
+  color: #111;
+}
+
+.text-action:hover,
+.text-action:hover > span {
+  text-decoration: none;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 1.15em;
+  margin-top: 0.55em;
+}
+
 p {
   margin: 0.4em 0;
   line-height: 1.6;
