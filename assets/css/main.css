@@ -79,7 +79,7 @@ sub {
 /* NAVIGATION */
 
 .site-name {
-  font-family: "STIX Two Text", Georgia, serif;
+  font-family: "Montserrat", sans-serif;
   color: inherit;
   font-weight: 500;
   text-decoration: none;
