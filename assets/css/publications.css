@@ -1,4 +1,8 @@
-/* PAGE TITLE LINK */
+/* PAGE TITLES */
+
+.section-title--plain {
+  border-bottom: 0;
+}
 
 .publications-home-link {
   color: inherit;
@@ -18,9 +22,6 @@
 .journal-item,
 .conference-item {
   display: grid;
-}
-
-.journal-item {
   grid-template-columns: 2.5ch minmax(0, 1fr);
   column-gap: 0.35em;
 }
@@ -35,14 +36,7 @@
   content: attr(value) ".";
   font-weight: 400;
   font-variant-numeric: tabular-nums;
-}
-
-.journal-item::before {
   text-align: start;
-}
-
-.conference-item::before {
-  text-align: right;
 }
 
 .conference-details {
@@ -76,8 +70,6 @@
 /* CONFERENCE PRESENTATIONS */
 
 .conference-item {
-  grid-template-columns: 1.7em minmax(0, 1fr);
-  column-gap: 0.45em;
   margin-bottom: 1.15em;
 }
 
@@ -162,12 +154,6 @@
 }
 
 @media (max-width: 600px) {
-  .conference-item {
-    grid-template-columns: 1.5em minmax(0, 1fr);
-    column-gap: 0.35em;
-  }
-
-
   .conference-note {
     margin-left: 1.85em;
   }
