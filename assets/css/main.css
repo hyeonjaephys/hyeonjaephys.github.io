@@ -82,7 +82,7 @@ sub {
 .site-name {
   font-family: "Outfit", sans-serif;
   color: inherit;
-  font-weight: 300;
+  font-weight: 350;
   text-decoration: none;
 }
 
@@ -138,7 +138,8 @@ a.site-name:hover {
 
 .site-header--compact h1 {
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.55em;
+  color: #222;
 }
 
 .site-header--compact .navbar {
