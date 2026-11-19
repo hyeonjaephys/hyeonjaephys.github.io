@@ -66,12 +66,15 @@ sub {
   color: #222;
 }
 
-.about-text a[href="https://www.add.re.kr"] {
+.about-text a[href="https://www.add.re.kr"],
+.news-detail a {
   font-weight: inherit;
 }
 
 .about-text a[href="https://www.add.re.kr"]:hover,
-.about-text a[href="https://www.add.re.kr"]:focus-visible {
+.about-text a[href="https://www.add.re.kr"]:focus-visible,
+.news-detail a:hover,
+.news-detail a:focus-visible {
   font-weight: 400;
   text-decoration: underline;
 }
