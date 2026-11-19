@@ -1,0 +1,47 @@
+hong2026wire: |-
+  @article{hong2026wire,
+    author = {Hong, Sang Hyuk and Lim, Younghoon and Yim, Sin Hyuk and Nam, Jeong Bin and Lee, Sangkyung and Jeong, Taek and Kim, Hyeonjae},
+    title = {Wire-sealed atomic gas cells for noble-gas nuclear magnetic resonance applications},
+    journal = {Review of Scientific Instruments},
+    year = {2026},
+    volume = {97},
+    number = {10},
+    pages = {103203},
+    doi = {10.1063/5.0338890}
+  }
+
+kim2026undersea: |-
+  @article{kim2026undersea,
+    author = {Kim, Hyeonjae and Yim, Sin Hyuk and Lee, Sangkyung and Bang, Eun-Seok and Yeo, Sang Rae and Kim, Yun Jeong and Jeong, Taek and Lim, Younghoon},
+    title = {Magnetic Anomaly Detection of an Undersea Tunnel Using a Drone-Mounted All-Optical Pulsed Atomic Magnetometer},
+    journal = {{IEEE} Sensors Journal},
+    year = {2026},
+    volume = {26},
+    number = {20},
+    pages = {30274--30281},
+    doi = {10.1109/JSEN.2026.3729190}
+  }
+
+kim2025aging: |-
+  @article{kim2025aging,
+    author = {Kim, Hyeonjae and Jeong, Taek and Hong, Sang Hyuk and Nam, Jeong Bin and Lee, Sangkyung and Lim, Younghoon and Yim, Sin Hyuk},
+    title = {Aging test of an atomic vapor cell with {Al$_2$O$_3$} wall coating on cubic glass},
+    journal = {Applied Optics},
+    year = {2025},
+    volume = {64},
+    number = {27},
+    pages = {7932--7937},
+    doi = {10.1364/AO.572036}
+  }
+
+kim2026magnetic: |-
+  @misc{kim2026magnetic,
+    author = {Kim, Hyeonjae and Lee, Sangkyung and Yim, Sin Hyuk and Jeong, Taek and Lim, Younghoon},
+    title = {Magnetic characterization of electronic components for portable atomic sensors using a zero-field optically pumped magnetometry platform},
+    year = {2026},
+    eprint = {2609.07270},
+    archivePrefix = {arXiv},
+    primaryClass = {physics.atom-ph},
+    doi = {10.48550/arXiv.2609.07270},
+    url = {https://arxiv.org/abs/2609.07270}
+  }

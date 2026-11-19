@@ -112,6 +112,50 @@
   margin-top: 0.25em;
 }
 
+.publication-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85em;
+}
+
+.publication-actions > a {
+  flex: none;
+}
+
+.publication-bibtex {
+  flex: 1;
+  min-width: 0;
+}
+
+.bibtex-panel pre {
+  margin: 0.35em 0 0;
+  padding: 0.55em 0.7em;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  color: #444;
+  font-size: 0.85em;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.bibtex-copy {
+  border: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+}
+
+.bibtex-copy[hidden] {
+  display: none;
+}
+
+.bibtex-copy-status {
+  margin-inline-start: 0.4em;
+  font-size: 0.85em;
+  color: #555;
+}
+
 .conference-abstract-chevron {
   transition: transform 0.2s ease;
 }

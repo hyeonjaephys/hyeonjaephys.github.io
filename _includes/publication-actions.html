@@ -1,0 +1,17 @@
+<div class="publication-actions">
+  <a class="text-action" href="https://doi.org/{{ include.doi }}">
+    <span>{{ include.label }}</span>
+    {% include external-link-arrow.html %}
+  </a>
+  <details class="conference-abstract publication-bibtex">
+    <summary>
+      <span>BibTeX</span>
+      <span class="conference-abstract-chevron" aria-hidden="true">▾</span>
+    </summary>
+    <div class="bibtex-panel">
+      <pre><code>{{ site.data.publication_bibtex[include.citation] | escape }}</code></pre>
+      <button class="text-action bibtex-copy" type="button" hidden>Copy</button>
+      <span class="bibtex-copy-status" role="status"></span>
+    </div>
+  </details>
+</div>
