@@ -234,6 +234,7 @@ p {
 footer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 0.35em 1.5em;
   border-top: 1px double #ddd;
   margin-top: 3em;
@@ -243,7 +244,6 @@ footer {
 }
 
 .footer-copyright {
-  margin-inline-start: auto;
   text-align: right;
 }
 
@@ -328,7 +328,6 @@ footer {
   }
 
   .footer-copyright {
-    margin-inline-start: 0;
     text-align: left;
   }
 
