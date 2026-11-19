@@ -116,15 +116,22 @@
   display: flex;
   align-items: flex-start;
   gap: 0.85em;
+  margin-top: 0.25em;
 }
 
-.publication-actions > a {
+.publication-actions > .text-action {
   flex: none;
+  margin-top: 0;
 }
 
 .publication-bibtex {
   flex: 1;
   min-width: 0;
+  margin-top: 0;
+}
+
+.publication-bibtex > summary {
+  display: flex;
 }
 
 .bibtex-panel pre {
@@ -137,23 +144,6 @@
   line-height: 1.5;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-}
-
-.bibtex-copy {
-  border: 0;
-  padding: 0;
-  background: none;
-  font-family: inherit;
-}
-
-.bibtex-copy[hidden] {
-  display: none;
-}
-
-.bibtex-copy-status {
-  margin-inline-start: 0.4em;
-  font-size: 0.85em;
-  color: #555;
 }
 
 .conference-abstract-chevron {
